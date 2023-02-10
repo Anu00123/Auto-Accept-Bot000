@@ -10,3 +10,4 @@ services:
       - SUDO=${SUDO}
       - FSUB=${FSUB}
       - MONGO_URI=${MONGO_URI}
+      - CHANNEL_ID=${CHANNEL_ID}
