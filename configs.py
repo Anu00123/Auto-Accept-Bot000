@@ -5,6 +5,7 @@ class Config:
     API_HASH = getenv("API_HASH", "abcdefg")
     BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:AdDfgFRFVVfDEhdhyjjvjjftSEW")
     FSUB = getenv("FSUB", "SDBotz")
+    CHANNEL_ID = int(getenv("CHANNEL_ID, "-1001722623591"))
     CHID = int(getenv("CHID", "-1000112234"))
     SUDO = list(map(int, getenv("SUDO").split()))
     MONGO_URI = getenv("MONGO_URI", "")
