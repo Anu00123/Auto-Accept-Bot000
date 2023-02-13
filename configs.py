@@ -8,6 +8,6 @@ class Config:
     CHANNEL_ID = int(getenv("CHANNEL_ID, "-1001722623591"))
     CHID = int(getenv("CHID", "-1000112234"))
     SUDO = list(map(int, getenv("SUDO").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://ab:a@cluster0.xuftvdk.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
